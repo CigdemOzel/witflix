@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <link href="index.css" rel="stylesheet" />
+    <title>WitFlix Anasayfa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -8,19 +12,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <meta charset="UTF-8" />
-    <link href="./index.css" rel="stylesheet" />
-    <title>WİTFLİX | Browse</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <header>
-      <h1>WİTFLİX</h1>
+      <h1>WitFlix</h1>
       <nav>
-        <a href="">Topic 1</a>
-        <a href="">Topic 2</a>
-        <a href="">Topic 3</a>
-        <a href="">Topic 4</a>
+        <a href="">Topic 1 </a>
+        <a href="">Topic 2 </a>
+        <a href="">Topic 3 </a>
+        <a href="">Topic 4 </a>
       </nav>
       <div>
         <input type="text" placeholder="Search.." />
@@ -29,8 +29,31 @@
         <img src="https://picsum.photos/50" />
       </div>
     </header>
-    <main class="hero"></main>
-    <section class="suggestion"></section>
-    <footer></footer>
+    <main class="hero">
+      <div class="giristeki-kutu">
+        <h2>MOVIE NAME</h2>
+        <div class="film-hakkinda">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-regular fa-star"></i>
+          <p>7.3 IMDB</p>
+          <p>16+</p>
+          <p>2 hr 21 min</p>
+        </div>
+        <div class="film-aciklama">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            dolor quis accusantium magnam amet neque, quia quas magni! Nesciunt
+            nobis maiores quidem sapiente ut! Modi fugiat eius odit ipsa amet.
+          </p>
+        </div>
+        <div class="film-hakkinda">
+          <p><stan>Starring:</stan> Lorem ipsum, Lorem ipsum, Lorem ipsum</p>
+          <p><stan>Genre:</stan> Lorem, Ipsum, Color</p>
+          <p><stan>Tags:</stan> Lorem, Ipsum, Color</p>
+        </div>
+        <button><i class="fa-solid fa-play"></i>Play Now</button>
+      </div>
+    </main>
   </body>
 </html>
