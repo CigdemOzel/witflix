@@ -61,6 +61,10 @@ header nav a {
   width: 7rem;
 }
 
+.hamburger {
+  display: none;
+}
+
 /* hero */
 
 main {
@@ -93,7 +97,7 @@ video {
 .giristeki-kutu {
   width: 60%;
   position: absolute;
-  padding: 1rem;
+  border: 2px solid blue;
 }
 
 .film-hakkinda span {
@@ -164,12 +168,60 @@ button i {
   border: 1px solid white;
   min-width: 250px;
   border-radius: 0.5rem;
-  padding: 2rem 1rem;
+
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
+.film-bilgi-kutusu {
+  padding: 2rem 1rem;
+}
 
+.film1 {
+  background-image: url(https://picsum.photos/300);
+  background-size: 300px;
+  width: 300px;
+}
+.film2 {
+  background-image: url(https://picsum.photos/30);
+  background-size: 300px;
+  width: 300px;
+}
+.film3 {
+  background-image: url(https://picsum.photos/3);
+  background-size: 300px;
+  width: 300px;
+}
+.film4 {
+  background-image: url(https://picsum.photos/2);
+  background-size: 300px;
+  width: 300px;
+}
+.film5 {
+  background-image: url(https://picsum.photos/7);
+  background-size: 300px;
+  width: 300px;
+}
+.film6 {
+  background-image: url(https://picsum.photos/11);
+  background-size: 300px;
+  width: 300px;
+}
+.film7 {
+  background-image: url(https://picsum.photos/11);
+  background-size: 300px;
+  width: 300px;
+}
+.film8 {
+  background-image: url(https://picsum.photos/11);
+  background-size: 300px;
+  width: 300px;
+}
+.film9 {
+  background-image: url(https://picsum.photos/11);
+  background-size: 300px;
+  width: 300px;
+}
 .film-bilgi-kutusu h4 {
   margin: 0;
 }
@@ -196,6 +248,26 @@ button i {
 }
 
 /* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+footer h5 {
+  margin-top: 1.5 rem;
+}
+
+footer nav {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
 
 .social-logo img {
   width: 25px;
@@ -213,6 +285,49 @@ button i {
 }
 
 .uygulamalar img {
-  width: 50px;
-  height: 20px;
+  width: 65px;
+  height: 25px;
+}
+
+.uygulamalar {
+  min-width: 149px;
+}
+
+.social-logo {
+  min-width: 96px;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-wrap: wrap;
+  }
+  header nav {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .user-panel {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .giristeki-kutu {
+    width: 100%;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .social,
+  .uygulamalar {
+    width: 100%;
+    text-align: center;
+  }
+  footer nav {
+    justify-content: center;
+  }
 }
