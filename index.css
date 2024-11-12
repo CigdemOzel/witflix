@@ -74,11 +74,13 @@ main {
 
   display: flex;
   align-items: center;
-  overflow: hidden;
 }
 
-.giristeki-kutu video {
-  width: 80%;
+video {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
 }
 
 .puan i {
@@ -93,9 +95,9 @@ main {
 }
 
 .giristeki-kutu {
-  width: 80%;
+  width: 90%;
   position: absolute;
-
+  margin-bottom: 1.3rem;
   padding: 1rem;
 }
 
@@ -354,7 +356,9 @@ footer nav a {
     display: block;
   }
   .giristeki-kutu {
-    width: 100%;
+    width: 90%;
+    height: 50%;
+    margin-top: 2.9rem;
   }
   footer {
     flex-wrap: wrap;
@@ -367,5 +371,32 @@ footer nav a {
   }
   footer nav {
     justify-content: center;
+  }
+  main {
+    aspect-ratio: auto;
+    font-size: 14px;
+  }
+  button {
+    background: red;
+    border: 0;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  button i {
+    margin-left: -0.3rem;
+    margin-right: 0.5rem;
+  }
+  .puan i {
+    font-size: 14px;
+  }
+
+  .yas {
+    font-size: 14px;
+  }
+
+  .giristeki-kutu h2 {
+    font-size: 16px;
   }
 }
