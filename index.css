@@ -400,3 +400,31 @@ footer nav a {
     font-size: 16px;
   }
 }
+@media (max-width: 600px) {
+  .giristeki-kutu h2 {
+    font-size: 16px;
+  }
+  main {
+    aspect-ratio: auto;
+    font-size: 14px;
+  }
+  button {
+    background: red;
+    border: 0;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  button i {
+    margin-left: -0.3rem;
+    margin-right: 0.5rem;
+  }
+  .puan i {
+    font-size: 14px;
+  }
+
+  .yas {
+    font-size: 14px;
+  }
+}
