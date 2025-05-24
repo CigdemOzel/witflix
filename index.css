@@ -95,7 +95,6 @@ video {
 }
 
 .giristeki-kutu {
-  width: 90%;
   position: absolute;
   margin-bottom: 1.3rem;
   padding: 1rem;
@@ -337,7 +336,7 @@ footer nav a {
   min-width: 96px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   header {
     flex-wrap: wrap;
   }
@@ -355,11 +354,12 @@ footer nav a {
   .hamburger {
     display: block;
   }
+
   .giristeki-kutu {
-    width: 90%;
-    height: 50%;
-    margin-top: 2.9rem;
+    object-position: center;
+    object-fit: cover;
   }
+
   footer {
     flex-wrap: wrap;
   }
@@ -389,42 +389,26 @@ footer nav a {
     margin-right: 0.5rem;
   }
   .puan i {
-    font-size: 14px;
+    font-size: 9px;
   }
 
   .yas {
-    font-size: 14px;
+    font-size: 9px;
   }
 
   .giristeki-kutu h2 {
-    font-size: 16px;
-  }
-}
-@media (max-width: 600px) {
-  .giristeki-kutu h2 {
-    font-size: 16px;
-  }
-  main {
-    aspect-ratio: auto;
-    font-size: 14px;
-  }
-  button {
-    background: red;
-    border: 0;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    font-size: 0.8rem;
-  }
-  button i {
-    margin-left: -0.3rem;
-    margin-right: 0.5rem;
-  }
-  .puan i {
-    font-size: 14px;
+    font-size: 11px;
   }
 
-  .yas {
-    font-size: 14px;
+  .giristeki-kutu p {
+    font-size: 9px;
+  }
+
+  .rating {
+    font-size: 9px;
+  }
+
+  .sure {
+    font-size: 9px;
   }
 }
