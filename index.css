@@ -178,85 +178,85 @@ button i {
 }
 
 .film1 {
-  background-image: url(https://picsum.photos/300);
+  background-image: url(https://picsum.photos/3000);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film2 {
-  background-image: url(https://picsum.photos/30);
+  background-image: url(https://picsum.photos/1000);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film3 {
-  background-image: url(https://picsum.photos/3);
+  background-image: url(https://picsum.photos/2000);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film4 {
-  background-image: url(https://picsum.photos/2);
+  background-image: url(https://picsum.photos/1001);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film5 {
-  background-image: url(https://picsum.photos/7);
+  background-image: url(https://picsum.photos/1002);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film6 {
-  background-image: url(https://picsum.photos/11357);
+  background-image: url(https://picsum.photos/1003);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film7 {
-  background-image: url(https://picsum.photos/1155);
+  background-image: url(https://picsum.photos/1004);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film8 {
-  background-image: url(https://picsum.photos/11);
+  background-image: url(https://picsum.photos/1100);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film9 {
-  background-image: url(https://picsum.photos/113);
+  background-image: url(https://picsum.photos/1103);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film10 {
-  background-image: url(https://picsum.photos/115);
+  background-image: url(https://picsum.photos/1150);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film11 {
-  background-image: url(https://picsum.photos/105);
+  background-image: url(https://picsum.photos/1050);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film12 {
-  background-image: url(https://picsum.photos/84);
+  background-image: url(https://picsum.photos/1084);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film13 {
-  background-image: url(https://picsum.photos/98);
+  background-image: url(https://picsum.photos/1098);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
 }
 .film14 {
-  background-image: url(https://picsum.photos/14);
+  background-image: url(https://picsum.photos/1400);
   background-size: 300px;
   width: 300px;
   border-radius: 8px;
@@ -275,8 +275,8 @@ button i {
   gap: 1rem;
 }
 
-.film-kutusu button {
-  padding: 0.5rem 1.8rem;
+.film-bilgi-kutusu button {
+  padding: 0.5rem 0.5rem;
   border-radius: 0.4rem;
   font-size: 1rem;
 }
